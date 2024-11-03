@@ -1,11 +1,11 @@
 import { initializeApp } from "firebase/app";
 export const app = initializeApp({
-  apiKey: process.env.REACT_APP_API_KEY,
-  authDomain: process.env.REACT_APP_AUTH_DOMAIN,
-  databaseURL: process.env.REACT_APP_DATABASE_URL,
-  projectId: process.env.REACT_APP_PROJECT_ID,
-  storageBucket: process.env.REACT_APP_STORAGE_BUCKET,
-  messagingSenderId: process.env.REACT_APP_MESSAGING_SENDER_ID,
-  appId: process.env.REACT_APP_APP_ID,
+  apiKey: "AIzaSyAWvdIWGnSjGN8sq3Bks2QaauV3eeZW4Tg",
+  authDomain: "notes-app-ae0e0.firebaseapp.com",
+  projectId: "notes-app-ae0e0",
+  storageBucket: "notes-app-ae0e0.firebasestorage.app",
+  messagingSenderId: "1017836848393",
+  appId: "1:1017836848393:web:ec452706e05cadd99bffd8",
+  measurementId: "G-570X0SDNFV"
 });
 export default app;
